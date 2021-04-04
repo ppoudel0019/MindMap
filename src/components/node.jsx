@@ -7,6 +7,9 @@ import Row from 'react-bootstrap/Row'
 
 
 
+const ref = React.createRef();
+
+
 const initialElements = [
     {id: '1', type: 'input', data:{label: 'My Mind'}, position: {x:0,y:0}}
 ]
@@ -31,6 +34,7 @@ const Node = () => {
     
     return(
         <>
+           <div className="Post" ref={ref}>
             <ReactFlow
             elements={elements}
             onLoad={onLoad}
@@ -53,6 +57,7 @@ const Node = () => {
                 />
                 <Controls />
                 </ReactFlow>
+                </div>
 
             
             <Form>
@@ -68,6 +73,11 @@ const Node = () => {
                     </Col>
                     <Col>
                         <Button className="btn-primary" variant="dark" onClick={addNode}>Add Item</Button>
+                        
+ 
+                    
+                    
+                    
                     </Col>
                     <Col>
                     </Col>    
