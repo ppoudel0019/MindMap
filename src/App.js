@@ -1,12 +1,12 @@
 
 import './App.css';
 
-import PDF from './components/savePDF.jsx'
+import Homepage from './pages/homepage.jsx'
 
 function App() {
   return (
     <div className="App">
-      <PDF/>
+      <Homepage/>
      
     </div>
   );

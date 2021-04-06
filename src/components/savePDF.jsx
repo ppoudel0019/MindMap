@@ -10,7 +10,7 @@ const PDF = (props) => {
       <div className="Post" ref={ref}>
        <Node/>
       </div>
-      <Pdf targetRef={ref} filename="post.pdf">
+      <Pdf targetRef={ref} filename="Mind Map.pdf">
         {({ toPdf }) => <button onClick={toPdf}>Save as PDF</button>}
       </Pdf>
     </>

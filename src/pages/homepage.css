@@ -1,0 +1,24 @@
+.title
+{
+    font-family: 'Amatic SC', cursive; 
+    font-size: 6em;
+  
+}
+
+
+.row-center {
+     
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+
+  }
+  .col-center {
+   
+   align-items: center;
+   text-align: center;
+
+
+
+ }
