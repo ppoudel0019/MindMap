@@ -1,5 +1,4 @@
 import React from 'react'
-
 import background from '../images/file.jpeg'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
@@ -10,7 +9,6 @@ import Container from 'react-bootstrap/Container'
 const handleClick=(e)=>
 {
     e.preventDefault();
-    console.log("what")
     window.location.href="/Map";
     
 }
@@ -26,12 +24,12 @@ const Homepage = () => {
                 </Row>
                 <Row className="justify-content-md-center text">
                     Visualize your ideas with our mind mapping tool. <br /><br />
-                    </Row>
-                    <Row className="justify-content-md-center">
-                <Button size="lg"
-                type="button"
-                onClick={handleClick}
-                 variant="outline-dark">GET STARTED</Button>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Button size="lg"
+                    type="button"
+                    onClick={handleClick}
+                    variant="outline-dark">GET STARTED</Button>
                 </Row>
             </Col>
             <Col className='pt-5'>
