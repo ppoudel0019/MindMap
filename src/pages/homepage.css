@@ -1,7 +1,8 @@
 .title
 {
     font-family: 'Amatic SC', cursive; 
-    font-size: 6em;
+    font-size: 6.3em;
+    color:	#191970;
   
 }
 
@@ -10,15 +11,23 @@
      
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 1px;
     margin: auto;
 
   }
-  .col-center {
-   
-   align-items: center;
-   text-align: center;
+
+.text {
+     
+  font-family: 'Changa', sans-serif;
+  font-size: 1.5em;
+
+
+}
+.btn
+{
+  color:	#191970;
+}
 
 
 
- }
+ 
